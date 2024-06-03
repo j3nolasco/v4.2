@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root {
+    --bs-header-font-family: "Montserrat", sans-serif;
+    --bs-body-font-family: "Aptos Narrow", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+tbody {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+tbody tr {
+    /* display: table; */
+    width: 100%;
+}
